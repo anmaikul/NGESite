@@ -47,6 +47,31 @@
 
 })(jQuery); // End of use strict
 
+$(document).ready(function () {
+    $('.group').hide();
+    $('#div1').show();
+    $('#d1').click(function () {
+        $('.group').hide();
+        $('#div1').show();        
+    });
+    $('#d2').click(function () {
+        $('.group').hide();
+        $('#div2').show();        
+    });
+    $('#d3').click(function () {
+        $('.group').hide();
+        $('#div3').show();        
+    });
+    $('#d4').click(function () {
+        $('.group').hide();
+        $('#div4').show();        
+    });    
+    // ORIGINAL CODE FOR LIST SELECT
+    //$('#selectMe').change(function () {
+    //     $('.group').hide();
+    //     $('#'+$(this).val()).show();
+    // })
+});
 
 (function intialize() {
     var mapCanvas = document.getElementById('map');
