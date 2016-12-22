@@ -1,3 +1,12 @@
+@font-face {
+font-family: 'ADAM.CG PRO';
+src: url("../fonts/ADAM.CG_PRO.otf") format("opentype");
+}
+
+body {
+  font-family: 'ADAM.CG PRO';
+}
+
 section {
     padding: 80px 0;
 }
