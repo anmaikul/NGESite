@@ -1,10 +1,10 @@
 @font-face {
-font-family: 'ADAM.CG PRO';
-src: url("../fonts/ADAM.CG_PRO.otf") format("opentype");
+font-family: 'Aller';
+src: url("../fonts/Aller/Aller_Rg.ttf") format("truetype");
 }
 
 body {
-  font-family: 'ADAM.CG PRO';
+  font-family: 'Aller';
 }
 
 section {
@@ -78,8 +78,8 @@ p {
 }
 
 #CollegeStatImg {
-    max-width: 400px;
-    width: 50%;
+    max-width: 600px;
+    width: 60%;
 }
 
 #global {
@@ -107,20 +107,27 @@ p {
     text-shadow: 0 0 15px #000000;
 }
 
-li {
-    display: block;
+ul li {
+    /*display: block;*/
+    list-style-type: circle;
+    color: black;
+    float: left;
 }
 
-li:before {
-    /*Using a Bootstrap glyphicon as the bullet point*/
+
+/*ul li:before {
+    /*Using a Bootstrap glyphicon as the bullet point
     content: "\e080";
-    font-family: 'Glyphicons Halflings';
-    font-size: 15px;
-    float: left;
+    font-family: 'Glyphicons Halflings'; 
+    width: 1.4em;
+    float: left;    
+
     margin-top: 4px;
     margin-left: -20px;
-    color: #CCCCCC;
-}
+    color: black;
+
+}*/
+
 
 .text-section li {
     text-align: left;
